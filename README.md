@@ -24,6 +24,16 @@ A quick personal reference for useful terminal and Ubuntu shortcuts
 
 ---
 
+##  Vim Tricks
+
+| Hotkey/Combo                          | Description                             | Notes                                        |
+|--------------------------------------|-----------------------------------------|----------------------------------------------|
+| `:g/^match/yank A`         | Run global command to yank any line that matches ^match and put in register a           | Register needs to be reset                     |
+| `:let @a=""`         | Reset register           |                                              |
+| `\(pattern\)\@!`         | Negative look-ahead assertion           |                                              |
+
+---
+
 ## 📝 Context-specific Shortcuts
 
 *(This section is reserved for context-specific hotkeys and combos. Fill it out as needed.)*
