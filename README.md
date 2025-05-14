@@ -21,7 +21,8 @@ A quick personal reference for useful terminal and Ubuntu shortcuts
 | `fzf --preview "*tool* {}"`| nice preview e.g. use `cat\|ls\|*others*`|  |
 | `z *directory*`| better `cd` to directory| need zoxide  |
 | `tldr *tool*`| better `man` | need to install  |
-| `dust`| best `du` | need to install |
+| `dust`| better `du` | need to install |
+| `cd $(ls -t */ | head -n1)`| cd to last created dictionary |  |
 
 ---
 
