@@ -22,7 +22,7 @@ A quick personal reference for useful terminal and Ubuntu shortcuts
 | `z *directory*`| better `cd` to directory| need zoxide  |
 | `tldr *tool*`| better `man` | need to install  |
 | `dust`| better `du` | need to install |
-| `cd $(ls -t */ | head -n1)`| cd to last created dictionary |  |
+| `cd $(ls -t */ \| head -n1)`| cd to last created dictionary |  |
 
 ---
 
