@@ -52,6 +52,21 @@ A quick personal reference for useful terminal and Ubuntu shortcuts
 |`gf`| open file under cursor| ~/.config/wezterm/wezterm.lua |
 |`m*UPPERCASELETTER*`| set mark which works between file |  |
 |`gJ`| Join two lines without space between lines |  |
+|<C-w>| Delete word in insert mode |  |
+|<C-u>| Delete line in insert mode |  |
+|<C-h>| Delete character in insert mode |  |
+| g~ | Swap case |  |
+| gu | Make lowercase |  |
+| gU | Make lowercase |  |
+| :6t. | Copy line 6 to just below the current line |  |
+| :t6 | Copy current to just below just below line 6 |  |
+| :t. | Duplicate current line |  |
+| :t$ | Copy current line to the end of the file |  |
+| :'<,'>t0 | Copy visually selected lines to the start of the file |  |
+| :'<,'>m$ | Move visually selected lines to the end of the file |  |
+| :'<,'>m$ | Move visually selected lines to the end of the file |  |
+| :'<,'>normal . | For each line in the visual selection, execute the Normal mode . command |  |
+| :'<,'>normal @q | For each line in the visual selection, execute macro q |  |
 
 ---
 
