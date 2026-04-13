@@ -38,6 +38,7 @@ A quick personal reference for useful terminal and Ubuntu shortcuts
 |` /*pattern*, \<Shift\>n, cgn, *new_pattern*, \<Esc\> `| replace pattern |                                              |
 |` \<C-^\> `| Switch to last visited buffer|                                              |
 |` qa *macro* q, :new, :put a, *edit macro*, "ayy `| edit macro |                                              |
+|` :let @a=', Ctrl-R Ctrl-R a, Edit the text as required, press Enter` | edit macro 2 | |
 |`3gcc` and `gcap`| comment with movement | nvim plugin                                              |
 |`:ls, :b 0, :b 1`| switch between buffer 0 and 1 | built in vim feature                                              |
 |`ZZ`| save and quit nvim / vim|           |
